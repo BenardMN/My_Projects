@@ -1,0 +1,546 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch DrawingPanel",
+            "request": "launch",
+            "mainClass": "DrawingPanel",
+            "projectName": "JAVA_c8aa83e9"
+        },
+        {
+            "type": "java",
+            "name": "Launch PhoneDial",
+            "request": "launch",
+            "mainClass": "PhoneDial",
+            "projectName": "JAVA_c8aa83e9"
+        },
+        {
+            "type": "java",
+            "name": "Launch ProgressBarExample",
+            "request": "launch",
+            "mainClass": "ProgressBarExample",
+            "projectName": "JAVA_c8aa83e9"
+        },
+        {
+            "type": "java",
+            "name": "Launch Flight",
+            "request": "launch",
+            "mainClass": "flight.Flight",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "Launch TextArea",
+            "request": "launch",
+            "mainClass": "TextArea",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "Launch TextFieldTest",
+            "request": "launch",
+            "mainClass": "TextFieldTest",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "Launch TipOfDay",
+            "request": "launch",
+            "mainClass": "TipOfDay",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "Launch Text",
+            "request": "launch",
+            "mainClass": "Text",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "Launch AnImage",
+            "request": "launch",
+            "mainClass": "AnImage",
+            "projectName": "JAVA_9b64627"
+        },
+        {
+            "type": "java",
+            "name": "Launch TipOfDay",
+            "request": "launch",
+            "mainClass": "TipOfDay",
+            "projectName": "JAVA_9b64627"
+        },
+        {
+            "type": "java",
+            "name": "Launch EncryptPassword",
+            "request": "launch",
+            "mainClass": "EncryptPassword",
+            "projectName": "JAVA_9b64627"
+        },
+        {
+            "type": "java",
+            "name": "Launch GenerateDigitalSignature",
+            "request": "launch",
+            "mainClass": "GenerateDigitalSignature",
+            "projectName": "JAVA_9b64627"
+        },
+        {
+            "type": "java",
+            "name": "Launch MysqlCon",
+            "request": "launch",
+            "mainClass": "Cryptography.MysqlCon",
+            "projectName": "JAVA_9b64627"
+        },
+        {
+            "type": "java",
+            "name": "Launch CapitaliseClient",
+            "request": "launch",
+            "mainClass": "CapitaliseClient",
+            "projectName": "JAVA_9b64627"
+        },
+        {
+            "type": "java",
+            "name": "Launch DoubleColor",
+            "request": "launch",
+            "mainClass": "DoubleColor",
+            "projectName": "JAVA_9b64627"
+        },
+        {
+            "type": "java",
+            "name": "Launch TreeArraySample",
+            "request": "launch",
+            "mainClass": "TreeArraySample",
+            "projectName": "JAVA_9b64627"
+        },
+        {
+            "type": "java",
+            "name": "Launch FileChooserDialog",
+            "request": "launch",
+            "mainClass": "FileChooserDialog",
+            "projectName": "JAVA_9b64627"
+        },
+        {
+            "type": "java",
+            "name": "Launch MyIPAddress",
+            "request": "launch",
+            "mainClass": "MyIPAddress",
+            "projectName": "JAVA_9b64627"
+        },
+        {
+            "type": "java",
+            "name": "Launch Swap",
+            "request": "launch",
+            "mainClass": "Swap",
+            "projectName": "JAVA_9b64627"
+        },
+        {
+            "type": "java",
+            "name": "Launch Animation",
+            "request": "launch",
+            "mainClass": "Animation",
+            "projectName": "JAVA_9b64627"
+        },
+        {
+            "type": "java",
+            "name": "Launch RectangleOptionPane",
+            "request": "launch",
+            "mainClass": "RectangleOptionPane",
+            "projectName": "JAVA_9b64627"
+        },
+        {
+            "type": "java",
+            "name": "Launch Rectangle",
+            "request": "launch",
+            "mainClass": "Rectangle",
+            "projectName": "JAVA_9b64627"
+        },
+        {
+            "type": "java",
+            "name": "Launch OnlineTest",
+            "request": "launch",
+            "mainClass": "OnlineTest",
+            "projectName": "JAVA_9b64627"
+        },
+        {
+            "type": "java",
+            "name": "Launch ThreadPriority",
+            "request": "launch",
+            "mainClass": "ThreadPriority",
+            "projectName": "JAVA_9b64627"
+        },
+        {
+            "type": "java",
+            "name": "Launch DemoJoin",
+            "request": "launch",
+            "mainClass": "DemoJoin",
+            "projectName": "JAVA_9b64627"
+        },
+        {
+            "type": "java",
+            "name": "Launch ThreadJava",
+            "request": "launch",
+            "mainClass": "ThreadJava",
+            "projectName": "JAVA_9b64627"
+        },
+        {
+            "type": "java",
+            "name": "Launch Test1",
+            "request": "launch",
+            "mainClass": "Test1",
+            "projectName": "JAVA_9b64627"
+        },
+        {
+            "type": "java",
+            "name": "Launch GrossSalary",
+            "request": "launch",
+            "mainClass": "GrossSalary",
+            "projectName": "JAVA_9b64627"
+        },
+        {
+            "type": "java",
+            "name": "Launch Volume",
+            "request": "launch",
+            "mainClass": "Volume",
+            "projectName": "JAVA_9b64627"
+        },
+        {
+            "type": "java",
+            "name": "Launch sphere",
+            "request": "launch",
+            "mainClass": "sphere",
+            "projectName": "JAVA_9b64627"
+        },
+        {
+            "type": "java",
+            "name": "Launch IssueID",
+            "request": "launch",
+            "mainClass": "IssueID",
+            "projectName": "JAVA_9b64627"
+        },
+        {
+            "type": "java",
+            "name": "Launch ChatServer",
+            "request": "launch",
+            "mainClass": "ChatServer",
+            "projectName": "JAVA_9b64627"
+        },
+        {
+            "type": "java",
+            "name": "Launch ChatClient",
+            "request": "launch",
+            "mainClass": "ChatClient",
+            "projectName": "JAVA_9b64627"
+        },
+        {
+            "type": "java",
+            "name": "Launch CapitaliseServer",
+            "request": "launch",
+            "mainClass": "CapitaliseServer",
+            "projectName": "JAVA_9b64627"
+        },
+        {
+            "type": "java",
+            "name": "Launch GreetingClient",
+            "request": "launch",
+            "mainClass": "GreetingClient",
+            "projectName": "JAVA_9b64627"
+        },
+        {
+            "type": "java",
+            "name": "Launch MyServer",
+            "request": "launch",
+            "mainClass": "MyServer",
+            "projectName": "JAVA_9b64627"
+        },
+        {
+            "type": "java",
+            "name": "Launch encapsulation",
+            "request": "launch",
+            "mainClass": "encapsulation",
+            "projectName": "JAVA_9b64627"
+        },
+        {
+            "type": "java",
+            "name": "Launch MyClass",
+            "request": "launch",
+            "mainClass": "MyClass",
+            "projectName": "JAVA_9b64627"
+        },
+        {
+            "type": "java",
+            "name": "Launch PrintSquare",
+            "request": "launch",
+            "mainClass": "PrintSquare",
+            "projectName": "JAVA_9b64627"
+        },
+        {
+            "type": "java",
+            "name": "Launch Flight_Registration",
+            "request": "launch",
+            "mainClass": "Flight_Registration",
+            "projectName": "JAVA_9b64627"
+        },
+        {
+            "type": "java",
+            "name": "Launch Flight",
+            "request": "launch",
+            "mainClass": "Flight",
+            "projectName": "JAVA_9b64627"
+        },
+        {
+            "type": "java",
+            "name": "Launch CreatesDates",
+            "request": "launch",
+            "mainClass": "CreatesDates",
+            "projectName": "JAVA_9b64627"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch AddArguments",
+            "request": "launch",
+            "mainClass": "AddArguments",
+            "projectName": "JAVA_9b64627"
+        },
+        {
+            "type": "java",
+            "name": "Launch AgeTease",
+            "request": "launch",
+            "mainClass": "AgeTease",
+            "projectName": "JAVA_9b64627"
+        },
+        {
+            "type": "java",
+            "name": "Launch BMI",
+            "request": "launch",
+            "mainClass": "BMI",
+            "projectName": "JAVA_9b64627"
+        },
+        {
+            "type": "java",
+            "name": "Launch CreditCardVerify",
+            "request": "launch",
+            "mainClass": "CreditCardVerify",
+            "projectName": "JAVA_9b64627"
+        },
+        {
+            "type": "java",
+            "name": "Launch CylinderSphere",
+            "request": "launch",
+            "mainClass": "CylinderSphere",
+            "projectName": "JAVA_9b64627"
+        },
+        {
+            "type": "java",
+            "name": "Launch EmailMessage",
+            "request": "launch",
+            "mainClass": "EmailMessage",
+            "projectName": "JAVA_9b64627"
+        },
+        {
+            "type": "java",
+            "name": "Launch EnumDemo",
+            "request": "launch",
+            "mainClass": "EnumDemo",
+            "projectName": "JAVA_9b64627"
+        },
+        {
+            "type": "java",
+            "name": "Launch FileOpen",
+            "request": "launch",
+            "mainClass": "Exception.FileOpen",
+            "projectName": "JAVA_9b64627"
+        },
+        {
+            "type": "java",
+            "name": "Launch NullPointer",
+            "request": "launch",
+            "mainClass": "Exception.NullPointer",
+            "projectName": "JAVA_9b64627"
+        },
+        {
+            "type": "java",
+            "name": "Launch FactorialRecursion",
+            "request": "launch",
+            "mainClass": "FactorialRecursion",
+            "projectName": "JAVA_9b64627"
+        },
+        {
+            "type": "java",
+            "name": "Launch FibonacciSeries",
+            "request": "launch",
+            "mainClass": "FibonacciSeries",
+            "projectName": "JAVA_9b64627"
+        },
+        {
+            "type": "java",
+            "name": "Launch GoodThing",
+            "request": "launch",
+            "mainClass": "GoodThing",
+            "projectName": "JAVA_9b64627"
+        },
+        {
+            "type": "java",
+            "name": "Launch Greeting",
+            "request": "launch",
+            "mainClass": "Greeting",
+            "projectName": "JAVA_9b64627"
+        },
+        {
+            "type": "java",
+            "name": "Launch HelloWord",
+            "request": "launch",
+            "mainClass": "HelloWord",
+            "projectName": "JAVA_9b64627"
+        },
+        {
+            "type": "java",
+            "name": "Launch JavaForm",
+            "request": "launch",
+            "mainClass": "JavaForm",
+            "projectName": "JAVA_9b64627"
+        },
+        {
+            "type": "java",
+            "name": "Launch ListLetters",
+            "request": "launch",
+            "mainClass": "ListLetters",
+            "projectName": "JAVA_9b64627"
+        },
+        {
+            "type": "java",
+            "name": "Launch MyFlowLayout",
+            "request": "launch",
+            "mainClass": "MyFlowLayout",
+            "projectName": "JAVA_9b64627"
+        },
+        {
+            "type": "java",
+            "name": "Launch MyGridLayout",
+            "request": "launch",
+            "mainClass": "MyGridLayout",
+            "projectName": "JAVA_9b64627"
+        },
+        {
+            "type": "java",
+            "name": "Launch PascalTriangle",
+            "request": "launch",
+            "mainClass": "PascalTriangle",
+            "projectName": "JAVA_9b64627"
+        },
+        {
+            "type": "java",
+            "name": "Launch PersonalDetails",
+            "request": "launch",
+            "mainClass": "PersonalDetails",
+            "projectName": "JAVA_9b64627"
+        },
+        {
+            "type": "java",
+            "name": "Launch PhoneDial",
+            "request": "launch",
+            "mainClass": "PhoneDial",
+            "projectName": "JAVA_9b64627"
+        },
+        {
+            "type": "java",
+            "name": "Launch ProgressBarExample",
+            "request": "launch",
+            "mainClass": "ProgressBarExample",
+            "projectName": "JAVA_9b64627"
+        },
+        {
+            "type": "java",
+            "name": "Launch Scaner",
+            "request": "launch",
+            "mainClass": "Scaner",
+            "projectName": "JAVA_9b64627"
+        },
+        {
+            "type": "java",
+            "name": "Launch Smallest",
+            "request": "launch",
+            "mainClass": "Smallest",
+            "projectName": "JAVA_9b64627"
+        },
+        {
+            "type": "java",
+            "name": "Launch SumPolymorphism",
+            "request": "launch",
+            "mainClass": "SumPolymorphism",
+            "projectName": "JAVA_9b64627"
+        },
+        {
+            "type": "java",
+            "name": "Launch Test",
+            "request": "launch",
+            "mainClass": "Test",
+            "projectName": "JAVA_9b64627"
+        },
+        {
+            "type": "java",
+            "name": "Launch TextArea",
+            "request": "launch",
+            "mainClass": "TextArea",
+            "projectName": "JAVA_9b64627"
+        },
+        {
+            "type": "java",
+            "name": "Launch TextFieldTest",
+            "request": "launch",
+            "mainClass": "TextFieldTest",
+            "projectName": "JAVA_9b64627"
+        },
+        {
+            "type": "java",
+            "name": "Launch UseOptionPane",
+            "request": "launch",
+            "mainClass": "UseOptionPane",
+            "projectName": "JAVA_9b64627"
+        },
+        {
+            "type": "java",
+            "name": "Launch X",
+            "request": "launch",
+            "mainClass": "X",
+            "projectName": "JAVA_9b64627"
+        },
+        {
+            "type": "java",
+            "name": "Launch first",
+            "request": "launch",
+            "mainClass": "first",
+            "projectName": "JAVA_9b64627"
+        },
+        {
+            "type": "java",
+            "name": "Launch newJavaFile",
+            "request": "launch",
+            "mainClass": "newJavaFile",
+            "projectName": "JAVA_9b64627"
+        },
+        {
+            "type": "java",
+            "name": "Launch programmer",
+            "request": "launch",
+            "mainClass": "programmer",
+            "projectName": "JAVA_9b64627"
+        },
+        {
+            "type": "java",
+            "name": "Launch student",
+            "request": "launch",
+            "mainClass": "student",
+            "projectName": "JAVA_9b64627"
+        }
+    ]
+}

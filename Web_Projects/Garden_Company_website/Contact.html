@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="w3css-master/w3.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+	<title>Contact Us</title>
+    <script type="text/javascript">
+        function getConfirmation(){
+            var retVal = confirm();
+        if(retVal == true){
+            alert("Well done! Information saved Successfully!");
+            return true;
+        }else{
+            alert("Please try again later..");
+            return false;
+        }
+        }
+            //-->
+    </script>
+    <style type="text/css">
+        .colortext{
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <nav class="w3-bar w3-teal">
+        <a href="Index.html" class="w3-bar-item w3-button w3-hover-purple">Home</a>
+        <div class="w3-dropdown-hover">
+        <a href="Glossary.html" class="w3-bar-item w3-button w3-hover-purple">Tips And Tricks</a>
+
+        <!-- A drop down menu -->
+        <div class="w3-dropdown-content w3-bar-block w3-card-4">
+            <a href="#" class="w3-bar-item w3-button">Planting</a>
+            <a href="#" class="w3-bar-item w3-button">Weeding</a>
+            <a href="#" class="w3-bar-item w3-button">Transplanting</a>
+            <a href="#" class="w3-bar-item w3-button">Harvesting</a>
+            <a href="spray.html" class="w3-bar-item w3-button">Spraying</a>
+            <a href="Glossary.html" class="w3-bar-item w3-button">Glossary</a>
+        </div>
+    </div>
+        <a href="foliage.html" class="w3-bar-item w3-button w3-hover-purple">Problem-Solving</a>
+        <a href="Contact.html" class="w3-bar-item w3-button w3-hover-purple">Contact us</a>
+        <a href="Gallery.html" class="w3-bar-item w3-button w3-hover-purple">Gallery</a>
+        <input type="text" class="w3-bar-item w3-input" placeholder="Search ...">
+        <a href="#" class="w3-bar-item w3-button ">&#128269;</a>
+    </nav>
+    <section class="contact section-padding pt-0" id="contact">
+        <div class="container">
+            <h3 class="my-4 pt-4 pt-lg-0">Say hello to us!</h3>
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-12">
+                    <form action="#" method="get" class="contact-form webform"  role="form">
+                        <div class="form-group d-flex flex-column-reverse">
+                            <input type="text" class="form-control" name="cf-name" id="cf-name" placeholder="Your Name">
+                            <label for="cf-name" class="webform-label">Full Name</label>
+                        </div>
+                        <div class="form-group d-flex flex-column-reverse">
+                            <input type="email" class="form-control" name="cf-email" id="cf-email" placeholder="Your Email">
+                            <label for="cf-email" class="webform-label">Your Email</label>
+                        </div>
+                        <div class="form-group d-flex flex-column-reverse">
+                            <textarea class="form-control" rows="5" name="cf-message" id="cf-message" placeholder="Your Message"></textarea>
+                            <label for="cf-message" class="webform-label">Message</label>
+                        </div>
+                        <button type="submit" class="form-control" id="submit-button" name="submit" onclick="getConfirmation();">Send</button><br>
+                    </form>
+                </div>
+                <div class="mx-auto col-lg-4 col-md-6 col-12">
+                    <p style="font-family: Times New Roman, Times, serif; font-size: x-large; color: blue;">Please subscribe<br>to our monthly newsletter<br>to receive the latest farming tips, <br>technology and also get to know<br> where you can best sell your produce.</p>
+                    <input type="checkbox" name="newsletter" value="yes" checked="checked"><label>I'd like to receive the monthly newsletter</label><br>
+                    <p>Was this page useful?<br></p>
+                    <input type="radio" name="feedback" value="useful" checked="checked"><label>Yes</label>
+                    <input type="radio" name="feedback" value="notUseful"><label>No</label><br>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="w3-container w3-teal" align="center">
+ 	  <h2>Come Visit Our Store</h2>
+ 	  <p>Garden Technologies<br>Mbolu Malu rd, Machakos</p>
+      <p class="colortext"><a href="mailto:gardencompany@gmail.com?subject=Question/Comment" title="gardencompany@gmail.com" class="colortext">Contact us</a><br>0768599825
+      </p>
+      <footer class="w3-footer">
+        <p>Copyright &copy;  Garden Company</p>
+      </footer>
+    </div>
+</body>
+</html>

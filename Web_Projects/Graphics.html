@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Canvas Graphics Example</title>
+        <script>
+            let canvas;
+            let graphics;
+
+            function draw(){
+                graphics.fillText("Hello World", 10, 20);
+            }
+            function init(){
+                canvas = document.getElementById("theCanvas");
+                graphics = canvas.getContext("2d");
+                draw();
+            }
+            window.onload = init;
+        </script>
+    </head>
+    <body>
+        <canvas id="theCanvas" width="640" height="480"></canvas>
+    </body>
+</html>

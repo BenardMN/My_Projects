@@ -1,0 +1,26 @@
+#include <iostream>
+using namespace std;
+class Factorial
+{
+public:
+	int i,fact=1,number;
+	Factorial(int x){
+	number = x;
+	}
+	~Factorial(){
+		number = 0;
+		cout<<"Destructor called when object goes out of scope";
+	 }
+	int Calculate(){
+         for (int i = 1; i <= number; ++i){
+		      fact=fact*i;
+	    }
+	    return fact;
+	}
+};
+int main()
+{
+	Factorial f(5);
+	cout<<"Factorial is: "<<f.Calculate()<<endl;
+	return 0;
+}

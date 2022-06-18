@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial scale=1">
+<title>Ubunifu College</title>
+<style>
+body{
+	font-family: Calibri, Helvetica, sans-serif;
+	background-color:#00FFFF;
+}
+button{
+	background-color:cream;
+	width: 100%;
+	color: orange;
+	padding: 15px;
+	margin: 10px 0px;
+	border: none;
+	cursor: pointer;
+}
+form{
+	border: 3px solid #f1f1f1;
+}
+input[type=text], input[type=password]{
+	width: 100%;
+	margin: 10px;
+	padding: 12px 20px;
+	display: inline-block;
+	border: 2px blue;
+	box-sizing: border-box;
+}
+button:hover{
+	opacity: 0.7;
+}
+.cancelbtn {
+	width: auto;
+	padding: 10px 18px;
+	margin: 10px 5px;
+}
+.container {
+	padding: 25px;
+	background-color:lightblue;
+}
+div.move {
+        width: 0px;
+        height: 0px;
+        color: #000000;
+        background-color: #00FFFF;
+        padding: 10px;
+        border-radius: 4px;
+        position: relative;
+        text-align: center;
+        animation-name: move;
+        animation-duration: 5s;
+        animation-delay: 0s;
+        /*animation-iteration-count: 3;*/
+        animation-iteration-count: infinite;
+        /*animation-direction: reverse;*/
+        animation-direction: alternate;
+        /*animation-direction: alternate-reverse;*/
+      }
+
+      @keyframes move {
+        0% {background-color: #7FFFD4; left: 0px; top: 0px;}
+        25% {background-color: #7FFFD4; color: #7FFFD4; left:200px; top:0px;}
+        50% {background-color: #7FFFD4; color: #7FFFD4; left:200px; top:10px;}
+        75% {background-color: #7FFFD4; color: #7FFFD4; left:0px; top:10px;}
+        100% {background-color: #7FFFD4; color: #7FFFD4; left:0px; top:0px;}
+      }
+table, th, td {
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+</style>
+<script type="text/javascript">
+function ValidateCourseSelection()
+{
+	var checkboxes = document.getElementsByName("preffered_course");
+	var numberOfCheckedItems = 0;
+	for(var i = 0; i < checkboxes.length; i++)
+	{
+		if(checkboxes[i].checked)
+			numberOfCheckedItems++;
+	}
+	if(numberOfCheckedItems > 3)
+	{
+		alert("You cannot select more than three courses!");
+		return false;
+	}
+}
+</script>
+</head>
+<body style="background-color:lightblue;">
+<center><img src="images/university-icon.png" style="float: left; padding: 10px" width="50" height="50"><h1>Ubunifu Computer College</h1></center>
+<form>
+	<div class="container">
+		<label>Username:</label>
+		<input type="text" placeholder="Enter username" name="username" required>
+		<label>Password:</label>
+		<input type="password" placeholder="Enter password" name="password" required>
+		<button type="submit">Log In</button>
+		Forgot <a href="#"> password?</a>
+	</div>
+</form>
+<form method="post" action="mailto:bsccomputer-science@googlegroups.com">
+	<fieldset>
+	<legend>Choose your preffered course(s)</legend>
+	<input type="checkbox" name="preffered_course" value="Programming">Programming</br>
+	<input type="checkbox" name="preffered_course" value="Web Design">Web Design</br>
+	<input type="checkbox" name="preffered_course" value="Networking and Computer Maintenance">Networking and Computer Maintenance</br>
+	<input type="checkbox" name="preffered_course" value="Networking and Database Design">Networking and Database Design</br>
+	<input type="submit" value="Submit Now" onclick=" ValidateCourseSelection()">
+	</fieldset>
+</form>
+<h2>Recent Courses</h2>
+<ul>
+<li>SEBE</li>
+<li>SPAS<ul>
+	<li>Bsc Computer Science</li>
+	<li>Bsc Statistics</li>
+	<li>Bsc Mathematics and Computer Science</li>
+	</ul>
+</li>
+<li>SHS</li>
+</ul>
+<p><a href="http://masomo.kyu.ac.ke">Visit Masomo Portal for more</a></p>
+<table style="width:100%">
+<tr>
+<th>Option</th>
+<th>Minimum Score</th>
+<th>Level</th>
+<tr><td rowspan="2">Humanities</td><td>A-</td><td>Bachelor's Degree</td></tr>
+<tr><td>Diploma and C+</td><td>Higher Diploma</td></tr>
+<tr><td>Law</td><td colspan="2">Grade A- for all levels</td></tr>
+</table>
+<div style="float: center; margin-bottom: 10px;">
+    </div>
+    <div class="move"><img src="images/std1.jpg" alt="student" title="It students"></div>
+</body>
+</html>
