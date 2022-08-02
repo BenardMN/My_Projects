@@ -14,6 +14,26 @@
 
     <!-- Font Awesome icons (free version)-->
     <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>
+    <!--Jquery-->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <!--Boostrap-Jquery-->
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+    <!--Preetyphoto-Jquery-->
+    <script type="text/javascript" src="js/jquery.prettyPhoto.js"></script>
+    <!--NiceScroll-Jquery-->
+    <script type="text/javascript" src="js/jquery.nicescroll.js"></script>
+    <script type="text/javascript" src="js/waypoints.min.js"></script>
+    <!--Isotopes-->
+    <script type="text/javascript" src="js/jquery.isotope.js"></script>
+    <!--Wow-Jquery-->
+    <script type="text/javascript" src="js/wow.js"></script>
+    <!--Count-Jquey-->
+    <script type="text/javascript" src="js/jquery.countTo.js"></script>
+    <script type="text/javascript" src="js/jquery.inview.min.js"></script>
+    <!--Owl-Crousels-Jqury-->
+    <script type="text/javascript" src="js/owl.carousel.js"></script>
+    <!--Main-Scripts-->
+    <script type="text/javascript" src="js/script.js"></script>
 
     <!-- Google fonts-->
     <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
@@ -21,6 +41,8 @@
 
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="css/styles.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
 </head>
 <body id="page-top" style="background-color: black;">
     <!-- Navigation-->
@@ -32,7 +54,7 @@
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item"><a class="nav-link" href="#">Movies</a></li>
                     <li class="nav-item"><a class="nav-link" href="#">Series</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Genre</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#portfolio">Genre</a></li>
                     <li class="nav-item"><a class="nav-link" href="#">A-Z</a></li>
                 </ul>
             </div>
@@ -45,21 +67,107 @@
                 <div class="text-center">
                     <h1 class="mx-auto my-0 text-uppercase">BEN'S MOVIE SITE</h1>
                     <h2 class="text-white-50 mx-auto mt-2 mb-5">A free website that lets you stream your favorite series, action, soap operas comfortably and download the for FREE!.</h2>
-                    <a class="btn btn-primary" href="#about">Get Started</a>
+                    <a class="btn btn-primary" href="#portfolio">Get Started</a>
                 </div>
             </div>
         </div>
     </header>
-    <section id="about" style="padding: 50px;">
-        <img src="image/jp1993.jpg" height="400" width="300">
-        <img src="image/red_notice.jpg" width="300" height="400">
-        <img src="image/logan2017.jpg" width="300" height="400">
-        <img src="image/ai2018.jpg" width="300" height="400">
-        <img src="image/separation.jpeg" width="300" height="400">
-        <img src="image/into-the-woods.jpeg" width="300" height="400">
+    <!--Portfolio-Section-Start-->
+    <section id="portfolio">
+        <div class="container">
+            <div class="col-md-8 col-md-offset-2">
+                <div class="heading">
+                    <h2><span>GENRES</span></h2>
+                    <div class="line"></div>
+                    <!--p><strong>Make your gallery creative using this template thats responsive. Make all memories count.</strong></p-->
+                </div>
+            </div>
+            <div class="text-center">
+                <ul class="portfolio-filter">
+                    <li><a class="active" href="#" data-filter="*">All Genre</a></li>
+                    <li><a href="" data-filter=".action">Action</a></li>
+                    <li><a href="" data-filter=".adventure">Adventure</a></li>
+                    <li><a href="" data-filter=".comedy">Comedy</a></li>
+                    <li><a href="" data-filter=".crime">Crime</a></li>
+                    <li><a href="" data-filter=".drama">Drama</a></li>
+                    <li><a href="" data-filter=".horror">Horror</a></li>
+                    <li><a href="" data-filter=".romance">Romance</a></li>
+                    <li><a href="" data-filter=".scifi">Sci-fi</a></li>
+                    <li><a href="" data-filter=".thriller">Thriller</a></li>
+                    <li><a href="" data-filter=".western">Western</a></li>
+                </ul>
+            <!--/#portfolio-filter-->
+            </div>
+            <div class="portfolio-items">
+                <div class="col-md-4 col-sm-6 col-xs-12 portfolio-item creative">
+                    <div class="portfolio-item-inner"> <img class="img-responsive" src="image/jp1993.jpg" alt="">
+                        <div class="portfolio-info"> <a class="preview" href="image/jp1993.jpg" data-rel="prettyPhoto"><i class="fa fa-plus-circle"></i></a>
+                            <h6>ITEM-1</h6>
+                            <p>Jurassic Park</p>
+                        </div>
+                    </div>
+                </div>
+                <!--/.portfolio-item-->
+                <div class="col-md-4 col-sm-6 col-xs-12 portfolio-item corporate adventure">
+                    <div class="portfolio-item-inner"> <img class="img-responsive" src="image/red_notice.jpg" alt="">
+                        <div class="portfolio-info"> <a class="preview" href="image/red_notice.jpg" data-rel="prettyPhoto"><i class="fa fa-plus-circle"></i></a>
+                            <h6>ITEM-2</h6>
+                            <p>Red Notice</p>
+                        </div>
+                    </div>
+                </div>
+                <!--/.portfolio-item-->
+                <div class="col-md-4 col-sm-6 col-xs-12 portfolio-item thriller">
+                    <div class="portfolio-item-inner"> <img class="img-responsive" src="image/logan2017.jpg" alt="">
+                        <div class="portfolio-info"> <a class="preview" href="image/logan2017.jpg" data-rel="prettyPhoto"><i class="fa fa-plus-circle"></i></a>
+                            <h6>ITEM-3</h6>
+                            <p>Logan</p>
+                        </div>
+                    </div>
+                </div>
+                <!--/.portfolio-item-->
+                <div class="col-md-4 col-sm-6 col-xs-12 portfolio-item scifi">
+                    <div class="portfolio-item-inner"> <img class="img-responsive" src="image/ai2018.jpg" alt="">
+                        <div class="portfolio-info"> <a class="preview" href="image/ai2018.jpg" data-rel="prettyPhoto"><i class="fa fa-plus-circle"></i></a>
+                            <h6>ITEM-4</h6>
+                            <p>AI</p>
+                        </div>
+                    </div>
+                </div>
+                <!--/.portfolio-item-->
+                <div class="col-md-4 col-sm-6 col-xs-12 portfolio-item creative adventure romance horror">
+                    <div class="portfolio-item-inner"> <img class="img-responsive" src="image/separation.jpeg" alt="">
+                        <div class="portfolio-info"> <a class="preview" href="image/separation.jpeg" data-rel="prettyPhoto"><i class="fa fa-plus-circle"></i></a>
+                            <h6>ITEM-5</h6>
+                            <p>separation</p>
+                        </div>
+                    </div>
+                </div>
+                <!--/.portfolio-item-->
+                <div class="col-md-4 col-sm-6 col-xs-12 portfolio-item adventure">
+                    <div class="portfolio-item-inner"> <img class="img-responsive" src="image/into-the-woods.jpeg" alt="">
+                        <div class="portfolio-info"> <a class="preview" href="image/into-the-woods.jpeg" data-rel="prettyPhoto"><i class="fa fa-plus-circle"></i></a>
+                            <h6>ITEM-6</h6>
+                            <p>Into The Woods</p>
+                        </div>
+                    </div>
+                </div>
+                <!--/.portfolio-item-->
+                <div class="col-md-4 col-sm-6 col-xs-12 portfolio-item adventure horror">
+                    <div class="portfolio-item-inner"> <img class="img-responsive" src="image/wrong-turn.jpeg" alt="">
+                        <div class="portfolio-info"> <a class="preview" href="image/wrong-turn.jpeg" data-rel="prettyPhoto"><i class="fa fa-plus-circle"></i></a>
+                            <h6>ITEM-6</h6>
+                            <p>Wrong Turn</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--section id="about" style="padding: 50px;">
         <img src="image/wrong-turn.jpeg" width="300" height="400">
         <img src="image/prison-break.jpg" width="300" height="400" title="prison break">
-    </section>
+    </section-->
 
     <div class="btn-collection">
       <a href="booking.html"><button class="btn btn-custom">Buy Ticket</button></a>
